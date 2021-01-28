@@ -1,0 +1,12 @@
+Person class:
+lombok @ctor @tostring
+int id
+string name
+string address
+
+every new person will get the sequential id ...
+new Person <-- id =1
+new Person <-- id =2
+new Person <-- id =3
+...
+
