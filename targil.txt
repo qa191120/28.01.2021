@@ -19,7 +19,7 @@ print the phone current_os
 
 
 Person class:
-lombok @ctor @tostring
+lombok @tostring
 int id
 string name
 string address
