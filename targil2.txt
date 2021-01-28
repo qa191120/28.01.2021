@@ -1,0 +1,25 @@
+class Transaction
+final Date creationTime 
+final int transactionAmount 
+static average_amount
+static amount_sum
+static amount_count
+ctor:
+put the current date inside the creationTime
+put amount (argument) into the transactionAmount 
+calculate average on each ctor
+
+hint:
+final Date creationTime = new Date()
+
+==============================================================
+
+class MagicNumber
+member int number -- will never change
+final, in-line final, static, static final:
+  what was the lowest random number created
+  what was the highest random number created
+  luck number = 777 (will never change)
+  how many times the lucky number was randomized
+ctor (min, max)
+  create the random number and store it in member number
