@@ -1,5 +1,5 @@
 SamsungMobile class
-lombok @ctor @tostring
+lombok @tostring
 String color
 float size
 float current_os
