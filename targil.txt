@@ -1,3 +1,23 @@
+SamsungMobile class
+lombok @ctor @tostring
+String color
+float size
+float current_os
+static float android_os_number = 4.4;
+static method which add 0.1 to os number
+regular method (non-static) which sets the current_os to the android_os_number
+in the ctor set the current_os to the static android_os_number
+
+from main:
+print the os_number 
+call the static method which add 0.1 to os number
+print the os_number 
+create a new phone print the phone os
+call the static method which add 0.1 to os number
+call the method which sets the current_os to the android_os_number
+print the phone current_os
+
+
 Person class:
 lombok @ctor @tostring
 int id
