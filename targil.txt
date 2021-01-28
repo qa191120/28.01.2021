@@ -12,9 +12,9 @@ from main:
 print the os_number 
 call the static method which add 0.1 to os number
 print the os_number 
-create a new phone print the phone os
-call the static method which add 0.1 to os number
-call the method which sets the current_os to the android_os_number
+create a new phone print the phone current_os
+call the static method which add 0.1 to latest_android_os_number
+call the method which sets the current_os to the latest_android_os_number
 print the phone current_os
 
 
