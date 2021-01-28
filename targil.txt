@@ -3,10 +3,10 @@ lombok @tostring
 String color
 float size
 float current_os
-static float android_os_number = 4.4;
+static float lastest_android_os_number = 4.4;
 static method which add 0.1 to os number
-regular method (non-static) which sets the current_os to the android_os_number
-in the ctor set the current_os to the static android_os_number
+regular method (non-static) which sets the current_os to the latest_android_os_number
+in the ctor set the current_os to the static latest_android_os_number
 
 from main:
 print the os_number 
