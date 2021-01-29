@@ -1,0 +1,21 @@
+create a class for a songs
+members: 
+final releaseDate [not send in ctor args] -- this value will be set upon class creation (in ctor) and will get the current date-time. this member cannot be changed later
+final songName [send in ctor args] -- this member cannot be changed later
+float rating [send in ctor args] -- this member could be changed later
+static int songCounter [not send in ctor args] --  will count how many songs have been created
+final int songNumber [not send in ctor args] -- in the ctor this value will be set to the number of song current created
+  (hint: use the static member songCounter as reference)
+static final goldStandard [not send in ctor args] --  will present a gold standard number (i.e. 1000)
+afterGold boolean [not send in ctor args] -- in the ctor, check if the number of song created NOW have passed the
+   gold standard. if so- this value will be true. if not- this value will be false
+
+functions:
+static resetCount -- will reset the songCounter
+float getPosition -- will return the number of song in the global count. i.e. if this song was the 50th song and there were 100 songs total
+  then this function will return 50 / 100 = 0.5
+
+lombok @ToString
+
+**etgar: create a static array of Songs (inside Song class) with 10 elements. insert the first 10 songs into this array
+**etgar: create a static member (inside Song class) which will contain the song Haleluya
