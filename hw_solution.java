@@ -1,8 +1,10 @@
 package com.company;
 
+import lombok.AllArgsConstructor;
 import lombok.ToString;
 
 @ToString
+@AllArgsConstructor
 public class Country {
     public String name;
     public double size;
